@@ -3,63 +3,100 @@ import { CgRadioChecked } from "react-icons/cg";
 
 export default function organiztion() {
     return (
-        <section>
+        <section className=" px-5 sm:px-8 ">
             <h1
-                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-center text-4xl font-black 
+                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text md:text-center text-3xl font-black 
             text-transparent md:text-4xl lg:text-5xl"
             >
                 FOR YOUR OVERALL <br />
                 ORGANIZATION
             </h1>
-            <div className="grid grid-cols-1 place-items-center items-center gap-2 py-32 lg:grid-cols-2">
+            <div className="grid grid-cols-1 place-items-center items-center gap-3 pt-5 mb-40 sm:py-32  md:py-32 lg:grid-cols-2">
                 <span>
-                    <h3 className="text-3xl font-medium text-title-color">
+                    <h3 className="text-2xl font-bold text-transparent bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text">
                         We focus on:
                     </h3>
-                    <div className=" flex flex-col py-3 leading-relaxed text-title-color">
-                        <span className="flex items-center gap-2">
-                            <CgRadioChecked />
-                            Customers, Revenue, Profitability
-                        </span>
-                        <span className="flex items-center gap-2">
-                            <CgRadioChecked />
-                            Effectiveness, Efficiencies, Productivity
-                        </span>
-                        <span className="flex items-center gap-2">
-                            <CgRadioChecked />
-                            Awareness, Distribution: Knowledge & Experiences
-                        </span>
-                    </div>
-                    <h3 className="text-3xl font-medium text-title-color">
+                    <ul className=" flex flex-col py-3 leading-loose text-title-color">
+                        <li className="grid grid-flow-col gap-2 justify-start py-1 ">
+                            <span className="mt-1">
+                                <CgRadioChecked />
+                            </span>
+
+                            <span className="flex leading-snug">
+                                Customers, Revenue, Profitability
+                            </span>
+                        </li>
+                        <li className="grid grid-flow-col gap-2 justify-start  py-1">
+                            <span className="mt-1">
+                                <CgRadioChecked />
+                            </span>
+                            <span className="flex leading-snug">
+                                Effectiveness, Efficiencies, Productivity
+                            </span>
+                        </li>
+
+                        <li className="grid grid-flow-col gap-2 justify-start  py-1">
+                            <span className="mt-1">
+                                <CgRadioChecked />
+                            </span>
+                            <span className="flex leading-snug">
+                                Awareness, Distribution: Knowledge & Experiences
+                            </span>
+                        </li>
+                    </ul>
+                    <h3 className="text-2xl font-bold text-transparent bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text">
                         We do this using:
                     </h3>
-                    <div className="py-3 leading-relaxed text-title-color">
-                        <span className="flex items-center gap-2">
-                            <CgRadioChecked />
-                            Data & Information processing ,analysis &
-                            visualization.
-                        </span>
-                        <span className="flex items-center gap-2">
-                            <CgRadioChecked />
-                            Self service portals and tools
-                        </span>
-                        <span className="flex items-center gap-2">
-                            <CgRadioChecked />
-                            Driven, relentless, unwavering pursuit of solutions
-                        </span>
-                        <span className="flex items-center gap-2">
-                            <CgRadioChecked />
-                            Simulations & Predictive modeling
-                        </span>
-                        <span className="flex items-center gap-2">
-                            <CgRadioChecked />
-                            Development, Artificial Intelligence, ML
-                        </span>
-                    </div>
+                    <ul className="py-3 leading-loose text-title-color">
+                        <li className="grid grid-flow-col gap-2 justify-start  py-1">
+                            <span className="mt-1">
+                                <CgRadioChecked />
+                            </span>
+                            <span className="flex leading-snug">
+                                Data & Information processing ,analysis &
+                                visualization. Data Science principals.
+                            </span>
+                        </li>
+                        <li className="grid grid-flow-col gap-2 justify-start  py-1">
+                            <span className="mt-1">
+                                <CgRadioChecked />
+                            </span>
+                            <span className="flex leading-snug">
+                                Self service portals and tools
+                            </span>
+                        </li>
+                        <li className="grid grid-flow-col gap-2 justify-start  py-1">
+                            <span className="mt-1">
+                                <CgRadioChecked />
+                            </span>
+                            <span className="flex leading-snug">
+                                Driven, relentless, unwavering pursuit of
+                                solutions for the problems you are facing.
+                            </span>
+                        </li>
+                        <li className="grid grid-flow-col gap-2 justify-start  py-1">
+                            <span className="mt-1">
+                                <CgRadioChecked />
+                            </span>
+                            <span className="flex leading-snug">
+                                Simulations & Predictive modeling
+                            </span>
+                        </li>
+                        <li className="grid grid-flow-col gap-2 justify-start  py-1">
+                            <span className="mt-1">
+                                <CgRadioChecked />
+                            </span>
+                            <span className="flex leading-snug">
+                                Development, AI (Artificial Intelligence), ML
+                                (Machine Learning) & Automation (Workflow or
+                                Process Automation, including robotics)
+                            </span>
+                        </li>
+                    </ul>
                     <button
                         type="button"
-                        className="mr-3 w-max rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium 
-                        text-white hover:bg-blue-800 focus:outline-none focus:ring-1 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:mr-0"
+                        className="mr-3 w-max rounded-lg bg-blue-700 px-5 py-2.5 text-center text-sm font-medium text-white
+                         hover:bg-blue-800 focus:outline-none focus:ring-1 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 md:mr-0"
                     >
                         REQUEST CONSULTATION
                     </button>
