@@ -16,11 +16,14 @@ function demovideo() {
     }, []);
 
     return (
-        <section className="mt-20">
-            <h1 className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-center text-4xl font-black text-transparent md:text-4xl lg:text-5xl">
+        <section className="mt-20 px-5 sm:px-8">
+            <h1
+                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text md:text-center text-3xl font-black 
+            text-transparent md:text-4xl lg:text-5xl"
+            >
                 PROJECT EXAMPLES
             </h1>
-            <p className="mx-auto max-w-2xl text-center text-title-color">
+            <p className="mx-auto max-w-2xl sm:text-center text-title-color">
                 Our wide range of expertise in business, operations, and
                 technology, combined with our decades of experience through
                 varying environments, allows us a unique perspective and
@@ -30,7 +33,7 @@ function demovideo() {
                 <video
                     style={{
                         maxWidth: "100%",
-                        width: "70%",
+                        width: "100%",
                         margin: "0 auto",
                         borderRadius: "10px",
                     }}
