@@ -45,7 +45,7 @@ export default function services() {
     return (
         <section>
             <h1
-                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text md:text-center text-3xl font-black 
+                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-center text-3xl font-black 
             text-transparent md:text-4xl lg:text-5xl"
             >
                 OUR SERVICES
@@ -66,7 +66,7 @@ export default function services() {
                             <h1 className="mx-10  border-b border-gray-800 py-5 text-center text-2xl font-semibold text-title-color ">
                                 {CardProvider.Stitle}
                             </h1>
-                            <ul className="mx-10 list-disc border-b border-gray-800 py-5 leading-10 text-title-color">
+                            <ul className="mx-2 sm:mx-8 md:mx-10 list-disc border-b border-gray-800 py-5 leading-10 text-title-color">
                                 <li className="grid grid-flow-col gap-2 justify-start py-4">
                                     <span className="mt-1 text-green-500">
                                         <FiCheck />
