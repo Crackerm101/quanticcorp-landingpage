@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { v4 as uuidv4 } from "uuid";
-
+import { FiCheck } from "react-icons/fi";
 const ServiceCard = [
     {
         id: uuidv4(),
@@ -44,10 +44,13 @@ const ServiceCard = [
 export default function services() {
     return (
         <section>
-            <h1 className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-center text-4xl font-black text-transparent md:text-4xl lg:text-5xl">
+            <h1
+                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text md:text-center text-3xl font-black 
+            text-transparent md:text-4xl lg:text-5xl"
+            >
                 OUR SERVICES
             </h1>
-            <div className="grid grid-cols-1 gap-5 py-10 lg:grid-cols-3">
+            <div className="grid grid-cols-1 gap-5 px-5 sm:px-8 py-10 lg:grid-cols-3">
                 {ServiceCard.map((CardProvider) => (
                     <div className="flex flex-col gap-1" key={CardProvider.id}>
                         <div className="rounded-md bg-card-color p-4">
@@ -64,12 +67,46 @@ export default function services() {
                                 {CardProvider.Stitle}
                             </h1>
                             <ul className="mx-10 list-disc border-b border-gray-800 py-5 leading-10 text-title-color">
-                                <li>{CardProvider.Slist1}</li>
-                                <li>{CardProvider.Slist2}</li>
-                                <li>{CardProvider.Slist3}</li>
-                                <li>{CardProvider.Slist4}</li>
-                                <li>{CardProvider.Slist5}</li>
-                                <li>{CardProvider.Slist6}</li>
+                                <li className="grid grid-flow-col gap-2 justify-start py-4">
+                                    <span className="mt-1 text-green-500">
+                                        <FiCheck />
+                                    </span>
+                                    <span className="flex leading-snug">
+                                        {CardProvider.Slist1}
+                                    </span>
+                                </li>
+                                <li className="grid grid-flow-col gap-2 justify-start py-4">
+                                    <span className="mt-1 text-green-500">
+                                        <FiCheck />
+                                    </span>
+                                    <span className="flex leading-snug">
+                                        {CardProvider.Slist2}
+                                    </span>
+                                </li>
+                                <li className="grid grid-flow-col gap-2 justify-start py-4">
+                                    <span className="mt-1 text-green-500">
+                                        <FiCheck />
+                                    </span>
+                                    <span className="flex leading-snug">
+                                        {CardProvider.Slist3}
+                                    </span>
+                                </li>
+                                <li className="grid grid-flow-col gap-2 justify-start py-4">
+                                    <span className="mt-1 text-green-500">
+                                        <FiCheck />
+                                    </span>
+                                    <span className="flex leading-snug">
+                                        {CardProvider.Slist4}
+                                    </span>
+                                </li>
+                                <li className="grid grid-flow-col gap-2 justify-start py-4">
+                                    <span className="mt-1 text-green-500">
+                                        <FiCheck />
+                                    </span>
+                                    <span className="flex leading-snug">
+                                        {CardProvider.Slist5}
+                                    </span>
+                                </li>
                             </ul>
                             <p className="mx-10 py-5 text-center text-title-color">
                                 {CardProvider.Sdesc}
