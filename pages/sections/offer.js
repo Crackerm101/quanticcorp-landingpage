@@ -26,7 +26,7 @@ const OfferCard = [
 
 export default function offer() {
     return (
-        <section className="relative">
+        <section className="relative  px-5 sm:px-8 ">
             <div className="flex flex-col items-center">
                 <h1
                     className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 
