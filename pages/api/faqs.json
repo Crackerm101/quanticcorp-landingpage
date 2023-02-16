@@ -1,0 +1,52 @@
+{
+    "faqs_categories": [
+        {
+            "id": "1",
+            "faqtitle": "Project: Make IT Better for my Staff & Company",
+            "faqsdes1": "A Director IT now CTO came across one of our messages on LinkedIn. It has been difficult finding the right team members to help support business needs",
+            "faqsdes2": "Working together we looked at, and quickly defined some of the more tedious and sensitive tasks facing the team. Things that cause the most amount of pain for both the IT staff as well as the business units. Once defined, we pulled together in short order a series of on demand resources as well a set of self-service tools. The resources worked with our clients IT team to work on tasks all via email and chat-based instructions. Turning around tasks in a short period of time.",
+            "faqsitems": [
+                {
+                    "list": "Data and Information, converted into Intelligence."
+                },
+                {
+                    "list": "Intelligence, developed into Predictive models."
+                },
+                {
+                    "list": "Predictions turned into Actions."
+                },
+                {
+                    "list": "Successful Actions converted into Automation."
+                },
+                {
+                    "list": "Repeat, CANI.."
+                }
+            ],
+            "faqsdes3": "Within a few months things were all caught up and  continue to run smoothly. Where we could automate, we did, and where we could not, we either have continued the support, or our client has taken on the workload  internally.  "
+        },
+        {
+            "id": "2",
+            "faqtitle": "Project: Make IT Better for my Staff & Company",
+            "faqsdes1": "A Director IT now CTO came across one of our messages on LinkedIn. It has been difficult finding the right team members to help support business needs",
+            "faqsdes2": "Working together we looked at, and quickly defined some of the more tedious and sensitive tasks facing the team. Things that cause the most amount of pain for both the IT staff as well as the business units. Once defined, we pulled together in short order a series of on demand resources as well a set of self-service tools. The resources worked with our clients IT team to work on tasks all via email and chat-based instructions. Turning around tasks in a short period of time.",
+            "faqsitems": [
+                {
+                    "list": "Data and Information, converted into Intelligence."
+                },
+                {
+                    "list": "Intelligence, developed into Predictive models."
+                },
+                {
+                    "list": "Predictions turned into Actions."
+                },
+                {
+                    "list": "Successful Actions converted into Automation."
+                },
+                {
+                    "list": "Repeat, CANI.."
+                }
+            ],
+            "faqsdes3": "Within a few months things were all caught up and  continue to run smoothly. Where we could automate, we did, and where we could not, we either have continued the support, or our client has taken on the workload  internally.  "
+        }
+    ]
+}
