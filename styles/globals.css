@@ -105,3 +105,16 @@ body {
     top: 0;
     left: 0;
 }
+
+.faqsList {
+    height: 0;
+    overflow: hidden;
+    padding: 0 1rem;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+.faqsList.show {
+    height: auto;
+    padding: 0 1rem;
+    transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
