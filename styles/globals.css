@@ -3,6 +3,15 @@
 @import "tailwindcss/utilities";
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 .nav_container_active ul li:hover:before {
     position: absolute;
     content: "";
@@ -74,27 +83,6 @@
     border-radius: 0.5rem;
 }
 
-@media screen and (max-width: 1024px) {
-    .nav_container {
-        background-color: #0e0f1b;
-        filter: drop-shadow(7px 10px 25px rgba(0, 0, 0, 0.41));
-        padding: 1rem;
-    }
-
-    .nav_container_active {
-        padding: 1rem;
-    }
-}
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body {
-    font-family: "Poppins", sans-serif;
-}
-
 .player-wrapper {
     position: relative;
     padding-top: 56.25%; /* 720 / 1280 = 0.5625 */
@@ -113,8 +101,26 @@ body {
     transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
 
+.conContainer {
+    background-image: url(https://res.cloudinary.com/dn5rd6g4b/image/upload/v1676612784/it-webpage/new_image_hbvhs0.jpg);
+    height: 100%;
+    background-size: cover;
+}
+
 .faqsList.show {
     height: auto;
     padding: 0 1rem;
     transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+}
+
+@media screen and (max-width: 1024px) {
+    .nav_container {
+        background-color: #0e0f1b;
+        filter: drop-shadow(7px 10px 25px rgba(0, 0, 0, 0.41));
+        padding: 1rem;
+    }
+
+    .nav_container_active {
+        padding: 1rem;
+    }
 }
