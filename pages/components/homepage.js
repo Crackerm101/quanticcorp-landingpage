@@ -11,7 +11,7 @@ export default function homepage() {
                         Service USA
                     </span>
                     <h1
-                        className="mt-5 max-w-xl bg-gradient-to-r from-purple-400 to-blue-600
+                        className="mt-5 max-w-2xl bg-gradient-to-r from-purple-400 to-blue-600
                      bg-clip-text text-4xl 
                     font-extrabold text-transparent md:text-5xl lg:text-6xl"
                     >
