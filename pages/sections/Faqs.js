@@ -24,19 +24,19 @@ export default function Faqs() {
     return (
         <div className="mt-20 py-20 px-3">
             <h1
-                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-3xl font-black text-transparent 
-            md:text-center md:text-4xl lg:text-5xl"
+                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-center text-3xl font-black 
+            text-transparent md:text-4xl lg:text-5xl"
             >
                 PROJECT EXAMPLES
             </h1>
-            <p className="mx-auto mt-1 max-w-5xl text-title-color sm:text-center">
+            <p className="mx-auto mt-1 max-w-5xl text-center text-title-color">
                 Our wide range of expertise in business, operations, and
                 technology, combined with our decades of experience through
                 varying environments, allows us a unique perspective and
                 approach in solving problems and overcoming barriers to success.
             </p>
 
-            <p className="mx-auto mt-4 max-w-5xl text-title-color sm:text-center">
+            <p className="mx-auto mt-4 max-w-5xl text-center text-title-color">
                 Our staff are permanently hired and are not brought on for any
                 one project. So, you can expect a continuity not normally found
                 with other agencies. Our proprietary technology captures
