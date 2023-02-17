@@ -12,9 +12,9 @@ import { Autoplay } from "swiper";
 export default function staff() {
     return (
         <section className="mt-20 py-20">
-            <div className="text-center mb-16">
+            <div className="mb-16 text-center">
                 <h1
-                    className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-center text-3xl font-black max-w-xl mx-auto
+                    className="mx-auto mb-2 max-w-xl bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-center text-3xl font-black
             text-transparent md:text-4xl lg:text-5xl"
                 >
                     ON STAFF - SKILLS, EXPERIENCE & TALENT
@@ -35,11 +35,11 @@ export default function staff() {
                 }}
                 breakpoints={{
                     640: {
-                        slidesPerView: 2,
+                        slidesPerView: 1,
                         spaceBetween: 20,
                     },
                     768: {
-                        slidesPerView: 4,
+                        slidesPerView: 2,
                         spaceBetween: 20,
                     },
                     1024: {
