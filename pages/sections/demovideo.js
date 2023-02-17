@@ -18,18 +18,16 @@ function demovideo() {
     return (
         <section className="mt-20 px-5 sm:px-8">
             <h1
-                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text md:text-center text-3xl font-black 
+                className="mb-2 bg-gradient-to-r from-purple-400 to-blue-600 bg-clip-text text-center text-3xl font-black 
             text-transparent md:text-4xl lg:text-5xl"
             >
-                PROJECT EXAMPLES
+                OUR PROCESS
             </h1>
-            <p className="mx-auto max-w-2xl sm:text-center text-title-color">
-                Our wide range of expertise in business, operations, and
-                technology, combined with our decades of experience through
-                varying environments, allows us a unique perspective and
-                approach in solving problems and overcoming barriers to success.
+            <p className="mx-auto max-w-2xl text-center text-title-color">
+                This may sound simple, but the underlying expertise, experience
+                & technologies required, are not.
             </p>
-            <div className="mt-10 grid h-full w-full place-items-center">
+            <div className="mt-10 grid h-full w-full place-items-center md:px-10 lg:px-40">
                 <video
                     style={{
                         maxWidth: "100%",
