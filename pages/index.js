@@ -10,6 +10,8 @@ import Department from "./sections/departments";
 import Footer from "./components/Footer";
 import DemoVideo from "./sections/demovideo";
 import Faqs from "./sections/Faqs";
+import Contact from "./sections/contact";
+
 export default function Home() {
     return (
         <>
@@ -34,6 +36,7 @@ export default function Home() {
                     <Staff />
                     <Faqs />
                 </div>
+                <Contact />
                 <Footer />
             </div>
         </>
