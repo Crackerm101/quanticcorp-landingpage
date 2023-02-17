@@ -8,6 +8,9 @@ import {
 } from "react-icons/ri";
 
 export default function Footer() {
+    const today = new Date();
+    const year = today.getFullYear();
+
     return (
         <div className="w-full bg-card-color py-3">
             <div className="container mx-auto flex h-full justify-between px-5 text-title-color">
