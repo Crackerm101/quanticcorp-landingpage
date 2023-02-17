@@ -61,9 +61,9 @@ export default function Navbar() {
             >
                 <div className="container mx-auto flex flex-wrap items-center justify-between rounded-md py-1 px-6 ">
                     <Image
-                        src="/image/AitLogo.svg"
-                        width="50"
-                        height="50"
+                        src="https://res.cloudinary.com/dn5rd6g4b/image/upload/v1676618209/it-webpage/Qlogo_kvhixh.svg"
+                        width="60"
+                        height="60"
                         alt="Logo"
                         loading="lazy"
                     />
