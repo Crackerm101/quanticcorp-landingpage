@@ -27,5 +27,5 @@ module.exports = {
             bigfont: ["inter"],
         },
     },
-    plugins: [],
+    plugins: [require("@tailwindcss/forms")],
 };
